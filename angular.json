@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "denis-lafontant"
+    }
+  },
+  "defaultProject": "denis-lafontant",
+  "cli": {
+    "analytics": "5b371021-62f9-4d30-b6d1-cae4a15aad3e"
+  }
 }
