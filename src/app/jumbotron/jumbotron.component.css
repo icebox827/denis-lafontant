@@ -1,0 +1,47 @@
+/*---------- welcome-section ----------*/
+
+/* Horizontal rule formatting */
+#welcome-section hr {
+    background-color: white;
+    height: 0.1rem
+  }
+  
+  /* welcome-section text colour */
+  #welcome-section {
+    color: #E9F1DF;
+  }
+  
+  /* welcome-section image formatting */
+  .rounded-circle {
+    height: 70%;
+    width: 70%;
+    border: 0.3rem solid #E9F1DF;
+  }
+  
+  /* welcome-section padding & colour */
+  .jumbotron {
+    padding-bottom: 2rem;
+    margin-bottom: 0.3rem;
+    background-color: #040281;
+  }
+  
+  /* welcome-section heading font size */
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  /* welcome-section container width */
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  /* welcome-section container height */
+  #welcome-section {
+    height: 100vh;
+  }
+  
+  /* welcome-section margin top*/
+  
+  #welcome-sectionimg {
+    margin-top: 50px;
+  }
