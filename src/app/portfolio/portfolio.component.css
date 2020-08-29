@@ -1,0 +1,28 @@
+/* Typogrphy style*/
+h1 {
+    text-transform: uppercase;
+}
+/*---------- Projects ----------*/
+
+/* Horizontal rule formatting */
+#projects hr {
+background-color: #36B1BF;
+height: 0.1rem
+}
+
+/* welcome-section text formatting */
+#projects h1 {
+color: #36B1BF;
+}
+
+/* Padding */
+#projects {
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+/* Center align the text */
+#projects {
+text-align: center !important;
+}
+

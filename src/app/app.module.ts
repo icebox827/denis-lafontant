@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { from } from 'rxjs';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     HeaderComponent,
     JumbotronComponent,
-    AboutComponent
+    AboutComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

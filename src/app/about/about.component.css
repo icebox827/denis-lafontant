@@ -1,0 +1,23 @@
+/*---------- About ----------*/
+
+/* Horizontal rule formatting */
+#About hr {
+    background-color: #36B1BF;
+    height: 0.1rem
+  }
+  
+/* welcome-section text formatting */
+#About h1 {
+color: #36B1BF;
+}
+
+/* Padding */
+#About {
+padding-top: 2rem;
+height: 70vh;
+}
+
+/*text*/
+p {
+   -ms-text-justify: auto;
+}
