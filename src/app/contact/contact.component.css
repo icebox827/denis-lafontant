@@ -1,0 +1,15 @@
+.container-fluid {
+    background-color: blue;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+h4 {
+    text-transform: uppercase;
+    color: white;
+}
+hr {
+    color: aliceblue;
+}
+.card-horizontal {
+    color: blue;
+}

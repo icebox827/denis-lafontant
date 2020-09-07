@@ -9,6 +9,7 @@
 /* welcome-section text formatting */
 #About h1 {
 color: #36B1BF;
+text-transform: uppercase;
 }
 
 /* Padding */
@@ -20,4 +21,5 @@ height: 70vh;
 /*text*/
 p {
    -ms-text-justify: auto;
+   font-size: 1.5rem;
 }

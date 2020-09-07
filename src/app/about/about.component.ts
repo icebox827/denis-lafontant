@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-about',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
+  whoIam = 'I am Denis Lafontant an experienced freelance full stack web designer, and developer, for 15 years I am dedicated to computer sciences especially development, enterprise solutions and networking. I code with PHP, CSS3, HTML5, Javascript & jQuery, build sites in WordPress, Joomla, Drupal, e-commerce sites in Shopify and Prestashop and the list continues to grow, I also do digital marketing to promote and grow your business on the social networks.';
+  coreValue = 'With a focus on results-driven services, my job is giving you not only a website and/or web application but a fully active digital presence that gets results. All of the projects that I work on are guided by a strong sense of meticulousness and precision both design and developing. I am passionate about creating a meaningful and unique digital experience for my clients users while providing them with confidence and assurance that they are in good hands.';
+  
   constructor() { }
 
   ngOnInit(): void {

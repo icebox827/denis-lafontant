@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-jumbotron',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jumbotron.component.css']
 })
 export class JumbotronComponent implements OnInit {
+  name = 'denis lafontant';
+  freelance = 'Full Stack Developer';
+  social ='Digital Marketing Freelance';
 
   constructor() { }
 

@@ -1,1 +1,58 @@
-<p>contact works!</p>
+<div class="container-fluid">
+  <div class="container">
+    <div class="col s12 m7">
+        <h4 class="header center-align">Contact</h4>
+        <hr>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="assets/logo_transparent.png" class="responsive-img mx-auto" width="500" height="500" alt="logo" title="Denis Lafontant">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+                <div class="row">
+                    <form class="col s12" #form="ngForm" (ngSubmit)="addContact(form.value)">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="First name" id="first_name" name="first_name" type="text" class="validate" [(ngModel)]="first_name">
+                          <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input placeholder="Last name" id="last_name" name="last_name" type="text" class="validate" [(ngModel)]="last_name">
+                          <label for="last_name">Last Name</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="Email" id="email" name="email" type="email" class="validate" [(ngModel)]="email">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="subject" id="subject" type="text" class="validate" [(ngModel)]="subject">
+                          <label for="email">Subject</label>
+                        </div>
+                      </div>
+                       <div class="row">
+                        <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                            <textarea placeholder="content" id="textarea1" name="content" class="materialize-textarea" [(ngModel)]="content"></textarea>
+                            <label for="textarea1">Content</label>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="card-action">
+                      <button class="btn waves-effect waves-light" type="submit" id="btn" name="action"><a class="waves-effect waves-light btn-large">Submit</a> 
+                          <i class="material-icons right">send</i>
+                      </button>
+                  </div>
+                  </form>
+                  </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

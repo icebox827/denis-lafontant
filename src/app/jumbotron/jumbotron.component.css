@@ -45,3 +45,7 @@
   #welcome-sectionimg {
     margin-top: 50px;
   }
+
+  h1 {
+    text-transform: uppercase;
+  }
