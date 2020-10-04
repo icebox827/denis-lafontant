@@ -10,48 +10,40 @@
           <div class="card-stacked">
             <div class="card-content">
                 <div class="row">
-                    <form class="col s12" #form="ngForm" (ngSubmit)="addContact(form.value)">
-                      <div class="row">
-                        <div class="input-field col s6">
-                          <input placeholder="First name" id="first_name" name="first_name" type="text" class="validate" [(ngModel)]="first_name">
-                          <label for="first_name">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                          <input placeholder="Last name" id="last_name" name="last_name" type="text" class="validate" [(ngModel)]="last_name">
-                          <label for="last_name">Last Name</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s6">
-                          <input placeholder="Email" id="email" name="email" type="email" class="validate" [(ngModel)]="email">
-                          <label for="email">Email</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s6">
-                          <input placeholder="subject" id="subject" type="text" class="validate" [(ngModel)]="subject">
-                          <label for="email">Subject</label>
-                        </div>
-                      </div>
-                       <div class="row">
-                        <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-                            <textarea placeholder="content" id="textarea1" name="content" class="materialize-textarea" [(ngModel)]="content"></textarea>
-                            <label for="textarea1">Content</label>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                    <div class="card-action">
-                      <button class="btn waves-effect waves-light" type="submit" id="btn" name="action"><a class="waves-effect waves-light btn-large">Submit</a> 
-                          <i class="material-icons right">send</i>
-                      </button>
-                  </div>
-                  </form>
-                  </div>
+                  <h3>Get in touch</h3>
+                  <p><b>contact@denislafontant.com</b></p>
+                  <hr>
+                  <div class="container">
+                  <ul class="social-icons">
+                    <li>
+                      <a href="https://www.facebook.com/denis.lafontant/" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span> - Facebook</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/heracles2k5" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span> - Twitter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/denis-lafontant-37031439/" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <span> - Linkedin</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/icebox827/" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span> - Instagram</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>

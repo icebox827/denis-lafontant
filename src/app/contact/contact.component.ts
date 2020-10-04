@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -25,6 +26,8 @@ export class ContactComponent implements OnInit {
   {"first_name":"Pippa","last_name":"Goymer","email":"pgoymer2@ihg.com","subject":"Female","content":"Browsecat"},
   {"first_name":"Addison","last_name":"Lawther","email":"alawther3@walmart.com","subject":"Male","content":"Yoveo"},
   {"first_name":"Anya","last_name":"Franzman","email":"afranzman4@bravesites.com","subject":"Female","content":"Twitterbeat"}];
+
+  //defining fields
 
   first_name = '';
   last_name = '';

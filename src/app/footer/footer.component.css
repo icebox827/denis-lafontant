@@ -24,7 +24,7 @@
   
   /* For footer positioning */
   html {
-    position: relative;
+    position: fixed;
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
   }
