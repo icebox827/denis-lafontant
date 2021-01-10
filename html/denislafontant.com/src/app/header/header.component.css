@@ -1,0 +1,14 @@
+/*Logo images*/
+#logo {
+    box-shadow: inset;
+    display: inline;
+    float: left;
+}
+
+.bran-logo{
+    text-transform: uppercase;
+}
+
+#navbar{
+    min-height: 90px;
+}

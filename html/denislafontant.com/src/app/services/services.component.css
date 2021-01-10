@@ -1,0 +1,30 @@
+.container-fluid {
+    background-color: blue;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+h4 {
+    text-transform: uppercase;
+    color: white;
+}
+p {
+    color: white;
+}
+.text-block {
+    align-content: center;
+}
+hr {
+    color: aliceblue;
+}
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+/* Transitions and animations */
+#animations:hover{
+    width: 300px;
+}
+.col-m4{
+    transition-timing-function: ease-in-out;
+}
+

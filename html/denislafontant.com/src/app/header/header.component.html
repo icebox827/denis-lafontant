@@ -1,0 +1,25 @@
+<!-- Navigation Bar -->
+<div class="navbar-fixed ">
+    <nav class="black"id="navbar">
+        <div class="nav-wrapper ">
+        <a href="#" class="brand-logo flow-text ">{{ header }}
+            <div class="responsive-img hide-on-med-and-down" id="logo"><img src="assets/logo_transparent.png" alt="logo" width="110" height="110"></div>
+        </a>
+        <a href="#" data-target="mobile-demo" data-toggle="collapse" class="sidenav-trigger flex navbar-toggler"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right collapse navbar-collapse" routerLinkActive="active">
+                <li class="nav-item active"><a class="nav-link" [routerLink]="['/jumbotron']">Home</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/about']">About</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/services']">What I Do</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/contact']">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- Script for collapsible navigation -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+    });
+</script>
